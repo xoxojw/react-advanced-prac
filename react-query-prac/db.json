@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "contents": "fake server",
+      "isDone": true
+    },
+    {
+      "id": 2,
+      "title": "React query",
+      "contents": "easy way",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "title": "Cookie, Session",
+      "contents": "about web",
+      "isDone": false
+    },
+    {
+      "title": "a",
+      "contents": "b",
+      "isDone": false,
+      "id": "aede87c4-f31f-4890-95c9-2d82bc116f71"
+    }
+  ]
+}

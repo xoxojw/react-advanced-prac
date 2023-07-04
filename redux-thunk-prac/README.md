@@ -17,8 +17,8 @@
 - createAsyncThunk는 reduxToolkit 내장 API이다.
 - name convention: __thunkName
 - thunk에는 2개의 args가 input
-  - 1. Action Value
-  - 2. Callback function
+  1. Action Value
+  2. Callback function
     - 이 콜백함수에도 2개의 args input
     - (1) payload : thunk 함수가 외부에서 사용되었을 때 넣은 값을 조회
     - (2) thunkAPI : thunk가 제공하는 여러 API 기능들이 담긴 객체를 꺼내쓸 수 있음

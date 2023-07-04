@@ -107,6 +107,7 @@ const todosSlice = createSlice(
     initialState,
     reducers: {
       addTodo: (state, action) => {
+        // 불변성 유지를 위해 spread opreator
         return [...state, action.payload];
       },
       removeTodo: (state, action) => {

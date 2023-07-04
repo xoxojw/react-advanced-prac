@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "title": "React 심화 공부",
+      "body": "Redux Toolkit, JSON, HTTP, axios/fetch, Thunk, Custom Hooks, React Query",
+      "createdAt": 1688451542272,
+      "id": 1
+    },
+    {
+      "title": "수건 빨래",
+      "body": "빨래하고 건조까지 완료해서 정리하기",
+      "createdAt": 1688454145357,
+      "id": 2
+    }
+  ]
+}

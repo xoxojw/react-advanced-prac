@@ -17,6 +17,6 @@
     - 컴포넌트에서 렌더링 해 줄 때, isLoading/error/todos(반환값) 세 가지의 경우를 모두 핸들링
     - isLoading, error에서 걸리면 컴포넌트에서 원래 보여주고자 했던 내용(여기서는 todo의 리스트들)까지 내려가지 않아 todos가 undefined, null 상태로 렌더링되지 않도록 핸들링해줄 수 있음
 
-5. 참고
+5. reducer vs extraReducer?
   - reducers 는 액션함수를 생성함과 동시에 해당 액션함수에 대응하는 역할
   - extraReducers 는 사용자가 slice reducer 내에서 액션함수에 접근할 수 있게하지만, extraReducers 내에서 액션함수를 생성하지 않는다는 점이 기존의 reducers 프로퍼티와의 가장 큰 차이점

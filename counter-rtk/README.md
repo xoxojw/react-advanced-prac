@@ -114,3 +114,22 @@ export default store;
 - configureStore 안에는 객체가 들어가고, 이 객체는 설정 객체이며 여기서 리듀서 프로퍼티를 정함
 - 설정 객체에 들어가는 reducer property는 `reducers`가 아님! - 1개의 `reducer`
 - configureStore에서는 리듀서의 값이 단일 리듀서가 될 수 있음
+
+<br />
+
+## ⛺ index.js
+
+```
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from 'App';
+import { Provider } from "react-redux";
+import store from "redux/config/configStore";
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
+```
